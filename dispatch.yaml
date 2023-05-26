@@ -1,0 +1,9 @@
+dispatch:
+  # Default service
+  - url: "*/"
+    service: default
+
+  # Backend service
+  - url: "backend.zabutons.com/*"
+    service: backend
+
