@@ -9,7 +9,8 @@ Took the time to set this up one time so that i could bootstrap a new dockerized
 
 # Frontend
 * app.yaml for deploying to GCP
-* edit Dockerfile to update local backend url:port
+
+Then edit the docker-compose file to set the local ports you will use (incase multiple instances increment the port numbers)
 
 Once the proper files are included in a terminal window from the root of the project (where the docker-compose.yml) is, simply do a:
 
@@ -23,7 +24,7 @@ once satisfied, to deploy to Google Cloud App Engine:
 
 first confirm that you are signed in to the right project by using 
 
-from the GCP UI , make sure to create a Firestore DB (set to Native ) and create a App Engine Application (just the default)
+from the GCP UI , make sure to create default placeholders for, Firestore DB (set to Native ) and create a App Engine Application
 These just need to be created at the default , the following deploy will fill them with things.
 
 \>\> gcloud config list
