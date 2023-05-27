@@ -23,6 +23,9 @@ once satisfied, to deploy to Google Cloud App Engine:
 
 first confirm that you are signed in to the right project by using 
 
+from the GCP UI , make sure to create a Firestore DB (set to Native ) and create a App Engine Application (just the default)
+These just need to be created at the default , the following deploy will fill them with things.
+
 \>\> gcloud config list
 
 use 
@@ -36,3 +39,5 @@ once confirmed, to deploy simply type
 \>\> ./deploy.sh
 
 and wait
+
+
