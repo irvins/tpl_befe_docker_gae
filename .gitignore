@@ -18,6 +18,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+template_be_fe_gcp_manual_include.zip
+
 secrets/
 logs/
 venv/
