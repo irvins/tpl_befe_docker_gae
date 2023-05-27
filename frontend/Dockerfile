@@ -22,7 +22,6 @@ COPY . .
 
 # Set a default environment variable for the port
 ENV PORT=8080
-ENV REACT_APP_BACKEND_URL=http://localhost:5001
 
 
 # Expose the port specified by the environment variable
