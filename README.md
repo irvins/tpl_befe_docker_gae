@@ -12,6 +12,8 @@ Took the time to set this up one time so that i could bootstrap a new dockerized
 
 Then edit the docker-compose file to set the local ports you will use (incase multiple instances increment the port numbers)
 
+if doing development locally, will need to do a "npm install" from the frontend directory since the local dir will be mapped to the docker container
+
 Once the proper files are included in a terminal window from the root of the project (where the docker-compose.yml) is, simply do a:
 
 \>\> docker compose build (if it is the first time and any subsequent time where new packages are added or Dockerfile changed)
